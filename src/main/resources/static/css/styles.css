@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: #ffff;
+    padding: 20px;
+}
+.head-bar{
+    color: #ffff;
+    background-color: #28a745;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+
+}
+li > a{
+    color: #ffff;
+    justify-content: space-between;
+    font-size: 20px;
+}
