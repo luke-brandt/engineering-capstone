@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03f292c2-d3f6-4d98-889e-49b776703f93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/controllers/ReportsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/reportsscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/controllers/LoginScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/entities/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/entities/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminscreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/buyscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/buyscreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/locationscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/locationscreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/entities/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/entities/Member.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/adminscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/adminscreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/buyscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/buyscreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/locationscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/locationscreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/productForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +120,7 @@
       <workItem from="1718142550729" duration="126000" />
       <workItem from="1718142679017" duration="980000" />
       <workItem from="1718314669692" duration="389000" />
-      <workItem from="1718721097288" duration="16757000" />
+      <workItem from="1718721097288" duration="21115000" />
     </task>
     <servers />
   </component>

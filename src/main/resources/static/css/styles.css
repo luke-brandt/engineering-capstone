@@ -68,6 +68,14 @@ h2{
 .bottomLinks > a{
     color: white;
 }
+
+.card{
+    border: 2px solid #28a745;
+}
+.card-header{
+    background-color: #28a745;
+    color: white;
+}
 @media (min-width: 1750px){
     .coffee-img{
         height: 600px;
