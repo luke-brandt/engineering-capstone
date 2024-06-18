@@ -1,8 +1,10 @@
 package com.skylinecoffee.springbootapp.demo.bootstrap;
 
 import com.skylinecoffee.springbootapp.demo.entities.Location;
+import com.skylinecoffee.springbootapp.demo.entities.Member;
 import com.skylinecoffee.springbootapp.demo.entities.Product;
 import com.skylinecoffee.springbootapp.demo.repository.LocationRepository;
+import com.skylinecoffee.springbootapp.demo.repository.MemberRepository;
 import com.skylinecoffee.springbootapp.demo.repository.ProductRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -15,10 +17,13 @@ public class BootStrapData implements CommandLineRunner {
     private final ProductRepository productRepository;
     private final LocationRepository locationRepository;
 
-    public BootStrapData(ProductRepository productRepository, LocationRepository locationRepository) {
+    private final MemberRepository memberRepository;
+
+    public BootStrapData(ProductRepository productRepository, LocationRepository locationRepository, MemberRepository memberRepository) {
 
         this.productRepository = productRepository;
         this.locationRepository = locationRepository;
+        this.memberRepository = memberRepository;
     }
     @Override
     public void run(String... args) throws Exception {
@@ -58,8 +63,28 @@ public class BootStrapData implements CommandLineRunner {
         locationRepository.save(location5);
         locationRepository.save(location6);
 
+        Member member1 = new Member("Sam", "White", "samwhite@email.com", "1600 5th Ave", "Seattle", "Washington", "98101");
+        Member member2 = new Member("John", "Doe", "johndoe@email.com", "123 Main St", "New York", "New York", "10001");
+        Member member3 = new Member("Alice", "Johnson", "alice.johnson@email.com", "456 Elm St", "Los Angeles", "California", "90001");
+        Member member4 = new Member("Michael", "Smith", "michael.smith@email.com", "789 Oak St", "Chicago", "Illinois", "60601");
+        Member member5 = new Member("Emily", "Brown", "emily.brown@email.com", "101 Pine St", "San Francisco", "California", "94101");
+        Member member6 = new Member("Daniel", "Lee", "daniel.lee@email.com", "555 Cedar St", "Boston", "Massachusetts", "02101");
+        Member member7 = new Member("Sophia", "Martinez", "sophia.martinez@email.com", "777 Maple St", "Houston", "Texas", "77001");
+        Member member8 = new Member("Oliver", "Garcia", "oliver.garcia@email.com", "888 Walnut St", "Miami", "Florida", "33101");
+        Member member9 = new Member("Isabella", "Lopez", "isabella.lopez@email.com", "999 Birch St", "Phoenix", "Arizona", "85001");
+        Member member10 = new Member("William", "Wilson", "william.wilson@email.com", "222 Pineapple St", "Denver", "Colorado", "80201");
 
 
+        memberRepository.save(member1);
+        memberRepository.save(member2);
+        memberRepository.save(member3);
+        memberRepository.save(member4);
+        memberRepository.save(member5);
+        memberRepository.save(member6);
+        memberRepository.save(member7);
+        memberRepository.save(member8);
+        memberRepository.save(member9);
+        memberRepository.save(member10);
 
 
 

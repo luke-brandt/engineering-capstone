@@ -16,17 +16,22 @@
     <title>Skyline Coffee Shop</title>
 </head>
 <body>
-    <div class="head-bar">
-        <h1>SKYLINE COFFEE SHOP</h1>
-        <ul>
-            <li style="margin-right: 25px">
-                <a th:href="@{/}">Home</a>
-            </li>
-            <li>
-                <a th:href="@{/buyscreen}">Order</a>
-            </li>
-        </ul>
-    </div>
+<div>
+    <img class="header-img" th:src="@{/images/skyline-hero-resized.png}">
+</div>
+<div class="head-bar">
+    <ul class="navigation-list">
+        <li>
+            <a th:href="@{/}">Home</a>
+        </li>
+        <li>
+            <a th:href="@{/buyscreen}">Order</a>
+        </li>
+        <li>
+            <a th:href="@{/locationscreen}">Locations</a>
+        </li>
+    </ul>
+</div>
 <div class="container">
 
     <h2>Products</h2>
