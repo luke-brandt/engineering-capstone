@@ -33,7 +33,7 @@
 <div class="container">
 
     <h2>Products</h2>
-    <form th:action="@{/mainscreen}">
+    <form th:action="@{/buyscreen}">
         Filter: <input type="text" name="productkeyword" id="productkeyword" size="50" th:value="${productkeyword}" required />
         &nbsp;
         <input type="submit" value="Search" />
@@ -42,7 +42,7 @@
     </form>
     <script type="text/javascript">
         function clearSearch() {
-            window.location = "[[@{/}]]";
+            window.location = "[[@{/buyscreen}]]";
         }
     </script>
     <br><br>
