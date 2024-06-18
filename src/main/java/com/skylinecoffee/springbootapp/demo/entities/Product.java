@@ -2,7 +2,12 @@ package com.skylinecoffee.springbootapp.demo.entities;
 
 
 
+
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 
 import java.io.Serializable;
@@ -17,18 +22,19 @@ import java.util.Set;
  */
 @Entity
 @Table(name="Products")
-//@ValidProductPrice
-//@ValidEnufParts
+
 public class Product implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     long id;
+    @NotEmpty(message = "Name cannot be empty")
     String name;
-    //    @Min(value = 0, message = "Price value must be positive")
 
+    @NotEmpty(message = "Bean Type cannot be empty")
     String beanType;
+    @Min(value = 0, message = "Price value must be positive")
     double price;
-    //    @Min(value = 0, message = "Inventory value must be positive")
+    @Min(value = 0, message = "Inventory value must be positive")
     int inv;
 
     public Product() {

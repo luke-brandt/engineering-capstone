@@ -27,13 +27,23 @@ public class BootStrapData implements CommandLineRunner {
         Product dark = new Product("Dark Roast","Ground", 11.0, 5);
         Product medium= new Product("Medium Roast","Ground",11.0,5);
         Product light= new Product("Light Roast", "Ground",10.0,5);
+        Product lightC= new Product("Coconut Light Roast", "Ground",10.0,5);
+        Product mediumC= new Product("Caramel Medium Roast","Ground",11.0,5);
+        Product darkC = new Product("Chocolate Dark Roast","Ground", 11.0, 5);
         Product caramel= new Product("Caramel Blend","Whole Bean",9.0,5);
         Product chocolate= new Product("Chocolate Blend","Whole Bean",5.0,5);
+        Product vanilla= new Product("French Vanilla Blend","Whole Bean",8.0,5);
+        Product coconut= new Product("Coconut Blend","Whole Bean",5.0,5);
         productRepository.save(dark);
         productRepository.save(medium);
         productRepository.save(light);
+        productRepository.save(darkC);
+        productRepository.save(mediumC);
+        productRepository.save(lightC);
         productRepository.save(caramel);
         productRepository.save(chocolate);
+        productRepository.save(vanilla);
+        productRepository.save(coconut);
 
         Location location1 = new Location("1600 5th Ave", "Seattle", "Washington", "98101");
         Location location2 = new Location("901 12th Ave", "Seattle", "Washington", "98122");

@@ -5,13 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03f292c2-d3f6-4d98-889e-49b776703f93" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/validators/PriceProductValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/validators/ValidProductPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/confirmationdeleteproduct.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/buyscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/buyscreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/bootstrap/BootStrapData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/bootstrap/BootStrapData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/adminscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/adminscreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/confirmationaddproduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/confirmationaddproduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/productForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/productForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/bootstrap/BootStrapData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/bootstrap/BootStrapData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/entities/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/adminscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/adminscreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/confirmationaddproduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/confirmationaddproduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/productForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/productForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -31,26 +51,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;working__branch&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "working__branch",
+    "last_opened_file_path": "/Users/lukebrandt/Desktop/WGU/d424-software-engineering-capstone/src/main/resources/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
@@ -92,7 +116,7 @@
       <workItem from="1718142550729" duration="126000" />
       <workItem from="1718142679017" duration="980000" />
       <workItem from="1718314669692" duration="389000" />
-      <workItem from="1718721097288" duration="938000" />
+      <workItem from="1718721097288" duration="4912000" />
     </task>
     <servers />
   </component>
