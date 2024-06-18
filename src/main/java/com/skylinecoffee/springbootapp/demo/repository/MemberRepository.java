@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface MemberRepository extends CrudRepository<Member,Long> {
 //    @Query("SELECT m FROM Member m WHERE m.name LIKE %?1%")
-//    public List<Product> search(String keyword);
+//    public List<Product> search(String );
 }

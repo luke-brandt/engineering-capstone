@@ -34,7 +34,11 @@
 </div>
 <div class="container">
 
-    <h2>Products</h2>
+    <h2>Admin</h2>
+
+    <br><br>
+    <h4>Product Managment</h4>
+    <br>
     <form th:action="@{/adminscreen}">
         Filter: <input type="text" name="productkeyword" id="productkeyword" size="50" th:value="${productkeyword}" required />
         &nbsp;
@@ -72,6 +76,15 @@
         </tr>
         </tbody>
     </table>
+    <br><br>
+    <a style="font-size:25px" th:href="@{/reportsscreen}">View Reports</a>
+
+
 </div>
+<div class="container bottomLinks">
+    <a th:href="@{/adminscreen}">Admin Login</a>
+</div>
+
+
 </body>
 </html>

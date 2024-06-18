@@ -1,8 +1,10 @@
 package com.skylinecoffee.springbootapp.demo.entities;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.CreationTimestamp;
 
 import java.io.Serializable;
+import java.util.Date;
 
 @Entity
 @Table(name="Members")
@@ -19,6 +21,9 @@ public class Member implements Serializable {
     String state;
     String zipCode;
 
+    @CreationTimestamp
+    private Date dateCreated;
+
     public Member(){
 
     }
@@ -33,7 +38,7 @@ public class Member implements Serializable {
         this.zipCode = zipCode;
     }
 
-    public Member(long id, String firstName, String lastName, String email, String address, String city, String state, String zipCode) {
+    public Member(long id, String firstName, String lastName, String email, String address, String city, String state, String zipCode, Date dateCreated) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -42,6 +47,7 @@ public class Member implements Serializable {
         this.city = city;
         this.state = state;
         this.zipCode = zipCode;
+        this.dateCreated = dateCreated;
     }
 
     public long getId() {
@@ -106,5 +112,13 @@ public class Member implements Serializable {
 
     public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
+    }
+
+    public Date getDateCreated() {
+        return dateCreated;
+    }
+
+    public void setDateCreated(Date dateCreated) {
+        this.dateCreated = dateCreated;
     }
 }
