@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03f292c2-d3f6-4d98-889e-49b776703f93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/skylinecoffee/springbootapp/demo/entities/MemberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/skylinecoffee/springbootapp/demo/entities/ProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +84,7 @@
       <recent name="com.skylinecoffee.springbootapp.demo.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductTest">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="DemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -191,7 +189,7 @@
       <workItem from="1718142679017" duration="980000" />
       <workItem from="1718314669692" duration="389000" />
       <workItem from="1718721097288" duration="21363000" />
-      <workItem from="1718892581943" duration="8161000" />
+      <workItem from="1718892581943" duration="10200000" />
     </task>
     <servers />
   </component>
