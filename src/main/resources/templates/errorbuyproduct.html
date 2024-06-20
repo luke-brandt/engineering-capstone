@@ -35,8 +35,8 @@
     </ul>
 </div>
 <div class="container">
-    <h2>Confirmation</h2>
-    <h3 th:text="${product.name + ' was successfully purchased!'}"> Product was successfully purchased!</h3>
+    <h2>Sorry!</h2>
+    <h3 th:text="${product.name + ' is out of stock. Please check back later.'}"> Product out of stock.</h3>
     <a th:href="@{/buyscreen}">Back</a>
 </div>
 </body>

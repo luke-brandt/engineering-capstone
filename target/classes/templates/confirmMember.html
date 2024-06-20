@@ -29,11 +29,14 @@
         <li>
             <a th:href="@{/locationscreen}">Locations</a>
         </li>
+        <li>
+            <a th:href="@{/memberSignup}">Coffee Club</a>
+        </li>
     </ul>
 </div>
 <div class="container">
     <h2>Confirmation</h2>
-    <h3 th:text="${'Thank you for join our coffee club ' + member.firstName + ' ' + member.lastName + '!'}"> Member successfully joined.</h3>
+    <h3 th:text="${'Thank you for joining our coffee club ' + member.firstName + ' ' + member.lastName + '!'}"> Member successfully joined.</h3>
     <a th:href="@{/}">Back To Home</a>
 </div>
 </body>
