@@ -57,7 +57,7 @@ h2{
     display: flex;
     flex-direction: column;
 }
-#locationsTable, #membersTable, #productsTable{
+#locationsTable,  #productsTable{
     display: none;
 }
 .bottomLinks{
@@ -75,6 +75,17 @@ h2{
 .card-header{
     background-color: #28a745;
     color: white;
+}
+#loginbox{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+.member-form{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #28a745;
 }
 @media (min-width: 1750px){
     .coffee-img{
