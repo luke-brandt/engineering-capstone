@@ -1,6 +1,9 @@
 package com.skylinecoffee.springbootapp.demo.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.io.Serializable;
@@ -13,13 +16,34 @@ public class Member implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     long id;
 
-    String firstName;
-    String lastName;
-    String email;
-    String address;
-    String city;
-    String state;
-    String zipCode;
+    @NotBlank(message = "First Name cannot be empty")
+    @Size(max = 50)
+    private String firstName;
+
+    @NotBlank(message = "Last Name cannot be empty")
+    @Size(max = 50)
+    private String lastName;
+
+    @Email(message = "Must be a valid email address")
+    @NotBlank(message = "Email cannot be empty")
+    @Size(max = 100)
+    private String email;
+
+    @NotBlank(message = "Address cannot be empty")
+    @Size(max = 255)
+    private String address;
+
+    @NotBlank(message = "City cannot be empty")
+    @Size(max = 100)
+    private String city;
+
+    @NotBlank(message = "State cannot be empty")
+    @Size(max = 100)
+    private String state;
+
+    @NotBlank(message = "Zip Code cannot be empty")
+    @Size(max = 10)
+    private String zipCode;
 
     @CreationTimestamp
     private Date dateCreated;

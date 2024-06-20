@@ -41,6 +41,10 @@
   <h3 style="text-align: center">Join our Coffee Club to receive special coupons!</h3>
   <div class="member-form">
     <form action="#" th:action="@{/memberSignup}" th:object="${member}" method="POST"}>
+
+      <div th:if="${#fields.hasAnyErrors()}">
+       <p th:each="err: ${#fields.allErrors()}" th:text="${err}" style="color:red"></p>
+      </div>
       <!-- Add hidden form field to handle update -->
       <p><input type="hidden" th:field="*{id}"/></p>
 
@@ -55,11 +59,7 @@
 
 
 
-      <p>
-      <div th:if="${#fields.hasAnyErrors()}">
-        <ul><li th:each="err: ${#fields.allErrors()}" th:text="${err}"></li></ul>
-      </div>
-      </p>
+
       <p><input type="submit" value="Submit" /></p>
     </form>
   </div>
