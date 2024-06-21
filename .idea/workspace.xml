@@ -5,32 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03f292c2-d3f6-4d98-889e-49b776703f93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/controllers/LocationScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/controllers/LocationScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/controllers/ReportsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/controllers/ReportsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/repository/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/repository/LocationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skylinecoffee/springbootapp/demo/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/confirmationaddproduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/confirmationaddproduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/confirmationdeleteproduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/confirmationdeleteproduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/skylinecoffee/springbootapp/demo/entities/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/skylinecoffee/springbootapp/demo/entities/MemberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/bootstrap/BootStrapData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/bootstrap/BootStrapData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/controllers/LocationScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/controllers/LocationScreenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/controllers/ReportsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/controllers/ReportsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/repository/LocationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/repository/LocationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/service/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/service/MemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/skylinecoffee/springbootapp/demo/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/confirmationaddproduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/confirmationaddproduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/confirmationdeleteproduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/confirmationdeleteproduct.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.skylinecoffee.springbootapp.demo.DemoApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.skylinecoffee.springbootapp.demo.DemoApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.skylinecoffee.springbootapp.demo.entities.MemberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.skylinecoffee.springbootapp.demo.entities.MemberTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.skylinecoffee.springbootapp.demo.entities.ProductTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.skylinecoffee.springbootapp.demo.entities.ProductTest.xml" afterDir="false" />
@@ -115,22 +96,7 @@
       <recent name="com.skylinecoffee.springbootapp.demo.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration name="DemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skylinecoffee.springbootapp.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.skylinecoffee.springbootapp.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.skylinecoffee.springbootapp.demo.DemoApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProductTest">
     <configuration name="MemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -142,6 +108,38 @@
       <option name="PACKAGE_NAME" value="com.skylinecoffee.springbootapp.demo.entities" />
       <option name="MAIN_CLASS_NAME" value="com.skylinecoffee.springbootapp.demo.entities.MemberTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTest.testInvalidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skylinecoffee.springbootapp.demo.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skylinecoffee.springbootapp.demo.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.skylinecoffee.springbootapp.demo.entities.MemberTest" />
+      <option name="METHOD_NAME" value="testInvalidEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTest.testValidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skylinecoffee.springbootapp.demo.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.skylinecoffee.springbootapp.demo.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.skylinecoffee.springbootapp.demo.entities.MemberTest" />
+      <option name="METHOD_NAME" value="testValidEmail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.skylinecoffee.springbootapp.demo.entities in demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductTest.setInv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -170,13 +168,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.skylinecoffee.springbootapp.demo.entities" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="com.skylinecoffee.springbootapp.demo.entities.ProductTest" />
+      <option name="METHOD_NAME" value="setInv" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="reportsscreen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/d424-software-engineering-capstone/src/main/resources/templates/reportsscreen.html" useBuiltInWebServerPort="true">
-      <method v="2" />
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
@@ -188,10 +185,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProductTest" />
-        <item itemvalue="JUnit.DemoApplicationTests" />
-        <item itemvalue="JUnit.com.skylinecoffee.springbootapp.demo.entities in demo" />
         <item itemvalue="JUnit.MemberTest" />
-        <item itemvalue="JavaScript Debug.reportsscreen.html" />
+        <item itemvalue="JUnit.ProductTest.setInv" />
+        <item itemvalue="JUnit.MemberTest.testInvalidEmail" />
+        <item itemvalue="JUnit.MemberTest.testValidEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -238,5 +235,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/skylinecoffee/springbootapp/demo/entities/ProductTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
