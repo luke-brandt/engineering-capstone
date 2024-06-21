@@ -34,6 +34,6 @@ public class ReportsController {
         model.addAttribute("products", productList);
         List<Location> locations = (List<Location>) locationRepository.findAll();
         model.addAttribute("locations", locations);
-        return "/reportsscreen";
+        return "reportsscreen";
     }
 }

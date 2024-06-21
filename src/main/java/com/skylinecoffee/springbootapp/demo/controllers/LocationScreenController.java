@@ -19,6 +19,6 @@ public class LocationScreenController {
     public String showLocations(Model model){
         List<Location> locations = (List<Location>) locationRepository.findAll();
         model.addAttribute("locations", locations);
-        return "/locationscreen";
+        return "locationscreen";
     }
 }

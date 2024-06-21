@@ -9,5 +9,6 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 
 public interface LocationRepository extends CrudRepository <Location,Long> {
-
+    @Query("SELECT l FROM Location l WHERE l.address LIKE %?1%")
+    public List<Location> search(String keyword);
 }

@@ -24,7 +24,6 @@ public class SecurityConfig {
                         .permitAll()
                 )
                 .logout((logout) -> logout.permitAll());
-
         return http.build();
     }
     @Bean
