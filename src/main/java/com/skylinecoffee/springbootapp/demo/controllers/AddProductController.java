@@ -47,18 +47,10 @@ public class AddProductController {
 
         if(bindingResult.hasErrors()){
             ProductService productService = context.getBean(ProductServiceImpl.class);
-            Product product2=productService.findById((int)product.getId());
             return "productForm";
         }
         else {
             ProductService repo = context.getBean(ProductServiceImpl.class);
-            if(product.getId()!=0) {
-                Product product2 = repo.findById((int) product.getId());
-
-            }
-            else{
-                product.setInv(0);
-            }
             repo.save(product);
             return "confirmationaddproduct";
         }

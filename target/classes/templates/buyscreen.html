@@ -66,7 +66,7 @@
             <td th:text="${tempProduct.name}">1</td>
 
             <td th:text="${tempProduct.beanType}">1</td>
-            <td th:text="${tempProduct.price}">1</td>
+            <td th:text="${'$' + tempProduct.price}">1</td>
             <td th:text="${tempProduct.inv}">1</td>
             <td>
                 <a th:href="@{/buyProduct(productID=${tempProduct.id})}" class="btn btn-primary btn-sm mb-3">Buy Now</a>
